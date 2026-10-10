@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# CAMBIAR POR EL DOMINIO FINAL ANTES DE PUBLICAR
+Sitemap: https://TU-DOMINIO.com.mx/sitemap.xml
