@@ -9,3 +9,13 @@ Actualización aplicada:
 - Se actualizó TikTok a https://www.tiktok.com/@vega.roman.travel
 
 - Testimonios completos tomados de la captura de la página anterior. Se respetó su redacción original y se corrigió el nombre del segundo autor a Juan.
+
+
+## Publicación con GitHub Pages
+Repositorio: https://github.com/UlisesRp/vega-roman-travel
+URL: https://ulisesrp.github.io/vega-roman-travel/
+Pages: Settings → Pages → Deploy from a branch → main / (root).
+
+Al conectar un dominio propio, actualizar canonical, og:url, og:image, robots.txt y sitemap.xml al dominio definitivo.
+
+Aeromán: integrado discretamente en Destinos y Contacto, usando la imagen original proporcionada y recortada sin fondo.

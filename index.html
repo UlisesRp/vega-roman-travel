@@ -8,14 +8,17 @@
   <meta name="description" content="Vega & Román Travel, agencia de viajes con atención personalizada. Descubre destinos, cruceros, hospedaje, vuelos y experiencias a tu medida. Más que una agencia, somos familia.">
   <meta name="author" content="Vega & Román Travel">
   <title>Vega & Román Travel | Más que una agencia, somos familia</title>
+  <link rel="canonical" href="https://ulisesrp.github.io/vega-roman-travel/">
+  <meta property="og:url" content="https://ulisesrp.github.io/vega-roman-travel/">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="es_MX">
   <meta property="og:site_name" content="Vega & Román Travel">
   <meta property="og:title" content="Vega & Román Travel | Más que una agencia, somos familia">
   <meta property="og:description" content="Tu próximo viaje comienza aquí. Destinos nacionales e internacionales, atención personalizada y experiencias a tu medida.">
-  <meta property="og:image" content="assets/og-cover.png">
+  <meta property="og:image" content="https://ulisesrp.github.io/vega-roman-travel/assets/og-cover.png">
   <meta property="og:image:alt" content="Vega & Román Travel: más que una agencia, somos familia">
   <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://ulisesrp.github.io/vega-roman-travel/assets/og-cover.png">
   <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -29,6 +32,7 @@
     "@context": "https://schema.org",
     "@type": "TravelAgency",
     "name": "Vega & Román Travel",
+    "url": "https://ulisesrp.github.io/vega-roman-travel/",
     "description": "Agencia de viajes especializada en viajes nacionales e internacionales, hospedaje, vuelos, cruceros y experiencias personalizadas.",
     "telephone": "+52 55 7938 0890",
     "email": "claudia.vegaromantravel@gmail.com",
@@ -127,12 +131,15 @@
               <div><svg class="icon"><use href="#i-check"/></svg><span>Asesoría para vacaciones, grupos, cruceros y más</span></div>
             </div>
           </div>
-          <div class="quote-box">
-            <form class="quote-form" id="quote-form">
-              <div class="field"><label for="trip-destination">Destino que te interesa</label><select id="trip-destination" name="destino"><option value="">Elige una opción</option><option>Playas de México</option><option>Las Vegas</option><option>Orlando y parques temáticos</option><option>Cruceros</option><option>Europa</option><option>Escapadas por México</option><option>Otro destino / necesito ideas</option></select></div>
-              <div class="field"><label for="trip-kind">Tipo de viaje</label><select id="trip-kind" name="tipo"><option value="">¿Qué tienes en mente?</option><option>En pareja</option><option>En familia</option><option>Con amigos</option><option>En grupo</option><option>Otro</option></select></div>
-              <button class="btn btn-dark quote-submit" type="submit">Cotizar por WhatsApp</button>
-            </form>
+          <div class="quote-side">
+            <div class="quote-box">
+              <form class="quote-form" id="quote-form">
+                <div class="field"><label for="trip-destination">Destino que te interesa</label><select id="trip-destination" name="destino"><option value="">Elige una opción</option><option>Playas de México</option><option>Las Vegas</option><option>Orlando y parques temáticos</option><option>Cruceros</option><option>Europa</option><option>Escapadas por México</option><option>Otro destino / necesito ideas</option></select></div>
+                <div class="field"><label for="trip-kind">Tipo de viaje</label><select id="trip-kind" name="tipo"><option value="">¿Qué tienes en mente?</option><option>En pareja</option><option>En familia</option><option>Con amigos</option><option>En grupo</option><option>Otro</option></select></div>
+                <button class="btn btn-dark quote-submit" type="submit">Cotizar por WhatsApp</button>
+              </form>
+            </div>
+            <img class="aeroman-vacaciones-quote" src="assets/aeroman-vacaciones.png" alt="Aeromán descansando en una silla de playa" width="180" height="206" loading="lazy">
           </div>
         </div>
       </div>
@@ -210,7 +217,10 @@
         <div class="steps-layout">
           <div class="steps-heading" data-reveal>
             <div class="eyebrow">Así de fácil</div>
-            <h2 class="section-title" id="steps-title">Planea tu viaje en pocos pasos.</h2>
+            <div class="steps-title-with-aeroman">
+              <h2 class="section-title" id="steps-title">Planea tu viaje en pocos pasos.</h2>
+              <img class="aeroman-pasos" src="assets/aeroman.png" alt="Aeromán, mascota de Vega & Román Travel" width="120" height="167" loading="lazy">
+            </div>
             <p>Te acompañamos de forma clara y sencilla para que encuentres la mejor opción.</p>
             <a class="text-arrow" href="#cotizar">Quiero empezar</a>
           </div>
@@ -271,6 +281,7 @@
           <span class="contact-whatsapp-icon" aria-hidden="true"><img src="assets/whatsapp-icon.svg" alt=""></span>
           <span class="contact-whatsapp-copy"><strong>Escríbenos por WhatsApp</strong><small>Atención personalizada y respuesta rápida</small></span>
         </a>
+        <img class="aeroman-contacto" src="assets/aeroman-pulgar-arriba.png" alt="Aeromán con el pulgar arriba" width="220" height="264" loading="lazy">
       </div>
     </section>
   </main>

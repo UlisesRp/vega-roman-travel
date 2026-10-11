@@ -1,5 +1,4 @@
 User-agent: *
 Allow: /
 
-# CAMBIAR POR EL DOMINIO FINAL ANTES DE PUBLICAR
-Sitemap: https://TU-DOMINIO.com.mx/sitemap.xml
+Sitemap: https://ulisesrp.github.io/vega-roman-travel/sitemap.xml
