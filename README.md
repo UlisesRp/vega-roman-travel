@@ -13,9 +13,9 @@ Actualización aplicada:
 
 ## Publicación con GitHub Pages
 Repositorio: https://github.com/UlisesRp/vega-roman-travel
-URL: https://ulisesrp.github.io/vega-roman-travel/
+URL: https://vegaromantravel.mx/
 Pages: Settings → Pages → Deploy from a branch → main / (root).
 
-Al conectar un dominio propio, actualizar canonical, og:url, og:image, robots.txt y sitemap.xml al dominio definitivo.
+Dominio conectado: vegaromantravel.mx. Canonical, Open Graph, robots.txt y sitemap.xml apuntan al dominio definitivo.
 
 Aeromán: integrado discretamente en Destinos y Contacto, usando la imagen original proporcionada y recortada sin fondo.

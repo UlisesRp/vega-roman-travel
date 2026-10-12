@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://ulisesrp.github.io/vega-roman-travel/sitemap.xml
+Sitemap: https://vegaromantravel.mx/sitemap.xml
